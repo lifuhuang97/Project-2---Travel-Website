@@ -1,0 +1,23 @@
+{
+	"name": "Project-2---Travel-Website",
+	"version": "1.0.0",
+	"description": "",
+	"main": "script.js",
+	"scripts": {
+		"sass": "node-sass -w scss/ -o dist/css/ --recursive"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lifuhuang97/Project-2---Travel-Website.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/lifuhuang97/Project-2---Travel-Website/issues"
+	},
+	"homepage": "https://github.com/lifuhuang97/Project-2---Travel-Website#readme",
+	"dependencies": {
+		"node-sass": "^4.14.1"
+	}
+}

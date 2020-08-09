@@ -135,6 +135,7 @@ nav {
 	bottom: -3px;
 	width: 100%;
 	height: 4.7rem;
+	background: white;
 	background: url('img/waves/wave-small.png') center no-repeat;
 	background-size: cover;
 }
@@ -426,8 +427,8 @@ footer {
 @media screen and (min-width: 470px) {
 	.cover::before {
 		height: 9.4rem;
-		background: url('img/waves/wave-medium.png');
-		background-size: cover;
+		/* background: url('img/waves/wave-medium.png'); */
+		/* background-size: cover; */
 	}
 
 	.testimonials::before {
@@ -514,8 +515,8 @@ footer {
 
 	.cover::before {
 		height: 22.7rem;
-		background: url('img/waves/wave-large.png');
-		background-size: cover;
+		/* background: url('img/waves/wave-large.png'); */
+		/* background-size: cover; */
 	}
 
 	.testimonials::before {

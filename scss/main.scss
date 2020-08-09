@@ -1,0 +1,172 @@
+@import 'config';
+@import 'utilities';
+
+//!General Styles
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.6;
+	background: $light-color;
+}
+
+a {
+	text-decoration: none;
+	color: $dark-color;
+}
+
+ul {
+	list-style: none;
+}
+
+h1,
+h2 {
+	text-transform: uppercase;
+}
+
+img {
+	width: 100%;
+}
+
+//!Logo
+
+#logo {
+	width: 115px;
+	height: 70px;
+}
+
+//!Main-nav
+
+#main-nav {
+	background: linear-gradient(135deg, rgba(49, 24, 131, 0.6) 0%, rgba(72, 56, 149, 0.5) 100%);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem 3% 1rem;
+	// background-color: #333;
+	color: $light-color;
+	opacity: 0.9;
+	width: 94%;
+	height: 70px;
+	position: fixed;
+	top: 0px;
+	z-index: 10;
+
+	ul {
+		display: flex;
+	}
+
+	li {
+		padding: 1rem 1.5rem;
+	}
+
+	a {
+		text-decoration: none;
+		color: $light-color;
+		text-transform: uppercase;
+		border-bottom: 3px transparent solid;
+		padding-bottom: 0.5rem;
+		transition: border-color 0.5s ease-in-out;
+
+		&:hover {
+			border-color: $light-color;
+		}
+
+		&.current {
+			border-color: $main-color;
+		}
+	}
+}
+
+#main-nav.top {
+	background: transparent;
+}
+
+//!Header
+
+#header {
+	//!Header Home
+
+	&-home {
+		background: linear-gradient(135deg, rgba(49, 24, 131, 0.8) 0%, rgba(72, 56, 149, 0.75) 100%),
+			$landing-page-image no-repeat center right / cover;
+		height: 100vh;
+		color: $light-color;
+		opacity: 0.85;
+
+		//!Header Content
+		.header-content {
+			position: relative;
+			text-align: center;
+			padding-top: 25%;
+
+			h1 {
+				font-size: 4rem;
+				line-height: 1.2;
+				letter-spacing: 8px;
+			}
+
+			h4 {
+				padding-top: 3rem;
+				font-weight: 300;
+				margin: 3rem 0;
+				font-size: 1.5rem;
+			}
+		}
+	}
+}
+
+// ! Countries Section
+
+#countries-home {
+	position: relative;
+	height: 90vh;
+
+	.countries-heading {
+		text-align: center;
+		margin: 2rem 0;
+		color: $dark-color;
+
+		h1 {
+			position: relative;
+			margin-top: 6rem;
+			font-size: 4rem;
+			bottom: 20px;
+		}
+
+		p {
+			font-size: 1.4rem;
+			bottom: 15px;
+		}
+	}
+
+	.countries-section-end {
+		position: absolute;
+		background: transparent;
+		bottom: -3rem;
+		left: 50%;
+		transform: translateX(-50%);
+
+		font-size: 1.5rem;
+		padding: 5rem 0;
+		margin: 1rem 0;
+		color: $dark-color;
+		text-transform: uppercase;
+		text-align: center;
+	}
+}
+
+// ! Glowbox
+
+@import 'glowbox';
+
+// ! TEMP --- SPACETAKER
+
+.space-taker {
+	height: 100vh;
+	background-color: red;
+}
