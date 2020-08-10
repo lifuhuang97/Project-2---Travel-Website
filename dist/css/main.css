@@ -427,6 +427,22 @@ svg {
         #gallery-home .carousel .slides .navigation-auto div:not(:last-child) {
           margin-right: 40px; }
 
+#countries-jumper {
+  display: block;
+  content: '';
+  margin-top: -85px;
+  height: 85px;
+  visibility: hidden;
+  pointer-events: none; }
+
+#gallery-jumper {
+  display: block;
+  content: '';
+  margin-top: -83px;
+  height: 83px;
+  visibility: hidden;
+  pointer-events: none; }
+
 footer {
   padding: 2rem 0;
   background: #3255b9;

@@ -1,0 +1,19 @@
+//! anchor tag jumper helpers
+
+#countries-jumper {
+	display: block;
+	content: '';
+	margin-top: -85px;
+	height: 85px;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+#gallery-jumper {
+	display: block;
+	content: '';
+	margin-top: -83px;
+	height: 83px;
+	visibility: hidden;
+	pointer-events: none;
+}
