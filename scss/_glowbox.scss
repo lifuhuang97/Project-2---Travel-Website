@@ -4,6 +4,7 @@
 	justify-content: space-around;
 	flex-wrap: wrap;
 	margin: 1rem 0;
+	z-index: 1;
 }
 
 .glowbox-image {
@@ -20,8 +21,8 @@
 	bottom: 45px;
 	display: flex;
 	justify-content: center;
-	vertical-align: top;
-	margin: 90px;
+	align-items: center;
+	margin: 80px;
 	background: #060c21;
 	transition: 0.5s;
 }
@@ -38,6 +39,7 @@
 	height: 100%;
 	padding: 10px;
 	box-sizing: border-box;
+	cursor: pointer;
 }
 
 .box .imgBx img {
