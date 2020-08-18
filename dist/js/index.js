@@ -1,3 +1,5 @@
+// Navbar color toggling
+
 const navbar = document.getElementById('main-nav');
 
 window.onscroll = () => {
@@ -12,3 +14,10 @@ window.onscroll = () => {
 		navbar.classList.remove('pagebottom');
 	}
 };
+
+
+const current_location_state = '.home-nav';
+
+navbar.addEventListener('click', (e) => {
+	
+})
