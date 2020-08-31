@@ -13,12 +13,12 @@
 
 .btn-main {
   color: #333;
-  background-color: #eb648c; }
+  background-color: #caf0f8; }
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: #eb648c; }
+  background-color: #caf0f8; }
 
 .text-center {
   text-align: center; }
@@ -126,7 +126,7 @@ svg {
     text-align: center;
     padding-top: 20%; }
     #header-home .header-content h1 {
-      color: #eb648c;
+      color: #caf0f8;
       font-size: 80px;
       line-height: 1.2;
       letter-spacing: 9px; }
@@ -163,7 +163,7 @@ svg {
     #main-nav a:hover {
       border-color: #f4f4f4; }
     #main-nav a.current {
-      border-color: #eb648c; }
+      border-color: #caf0f8; }
   #main-nav a #logo {
     margin-top: 25px;
     width: 95px;
@@ -185,16 +185,16 @@ svg {
   #countries-home .countries-heading {
     text-align: center;
     margin: 2rem 0;
-    color: #3255b9; }
+    color: #023e8a; }
     #countries-home .countries-heading h1 {
-      text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+      text-shadow: -1px -1px 0 #90e0ef, 1px -1px 0 #90e0ef, -1px 1px 0 #90e0ef, 1px 1px 0 #90e0ef;
       position: relative;
       margin-top: 6rem;
       font-size: 4rem;
       bottom: 20px; }
     #countries-home .countries-heading p {
       position: relative;
-      color: #3255b9;
+      color: #023e8a;
       font-size: 1.4rem;
       bottom: 25px; }
   #countries-home .countries-section-end {
@@ -211,8 +211,7 @@ svg {
     text-align: center; }
     #countries-home .countries-section-end h2 {
       text-transform: initial;
-      color: white;
-      text-shadow: -1px -1px 0 #3255b9, 1px -1px 0 #3255b9, -1px 1px 0 #3255b9, 1px 1px 0 #3255b9; }
+      color: #caf0f8; }
   #countries-home svg {
     position: absolute;
     z-index: -10;
@@ -336,7 +335,7 @@ svg {
 
 #gallery-home {
   position: relative;
-  height: 81vh;
+  height: 85vh;
   background: url("../img/gallery/test-bg.jpg") no-repeat center right/cover;
   z-index: 5;
   padding-bottom: 6px;
@@ -349,8 +348,8 @@ svg {
     #gallery-home .container h1 {
       text-align: center;
       margin: 2rem 0;
-      color: #3255b9;
-      text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+      color: #48cae4;
+      text-shadow: -0.5px -0.5px 0 #90e0ef, 0.5px -0.5px 0 #90e0ef, -0.5px 0.5px 0 #90e0ef, 0.5px 0.5px 0 #90e0ef;
       font-size: 4rem;
       bottom: 20px; }
   #gallery-home .carousel {
@@ -372,7 +371,7 @@ svg {
       display: flex;
       justify-content: center; }
       #gallery-home .carousel .slider .navigation-manual .manual-btn {
-        border: 2px solid rgba(17, 145, 244, 0.9);
+        border: 2px solid #ade8f4;
         padding: 5px;
         border-radius: 10px;
         cursor: pointer;
@@ -380,7 +379,7 @@ svg {
         #gallery-home .carousel .slider .navigation-manual .manual-btn:not(:last-child) {
           margin-right: 40px; }
         #gallery-home .carousel .slider .navigation-manual .manual-btn:hover {
-          background: rgba(17, 145, 244, 0.9); }
+          background: #ade8f4; }
   #gallery-home .carousel .slides {
     width: 500%;
     height: 500px;
@@ -404,15 +403,15 @@ svg {
     #gallery-home .carousel .slides #radio5:checked ~ .first {
       margin-left: -80%; }
     #gallery-home .carousel .slides #radio1:checked ~ .navigation-auto .auto-btn1 {
-      background: rgba(17, 145, 244, 0.9); }
+      background: #ade8f4; }
     #gallery-home .carousel .slides #radio2:checked ~ .navigation-auto .auto-btn2 {
-      background: rgba(17, 145, 244, 0.9); }
+      background: #ade8f4; }
     #gallery-home .carousel .slides #radio3:checked ~ .navigation-auto .auto-btn3 {
-      background: rgba(17, 145, 244, 0.9); }
+      background: #ade8f4; }
     #gallery-home .carousel .slides #radio4:checked ~ .navigation-auto .auto-btn4 {
-      background: rgba(17, 145, 244, 0.9); }
+      background: #ade8f4; }
     #gallery-home .carousel .slides #radio5:checked ~ .navigation-auto .auto-btn5 {
-      background: rgba(17, 145, 244, 0.9); }
+      background: #ade8f4; }
     #gallery-home .carousel .slides .navigation-auto {
       position: absolute;
       display: flex;
@@ -420,7 +419,7 @@ svg {
       justify-content: center;
       margin-top: 460px; }
       #gallery-home .carousel .slides .navigation-auto div {
-        border: 2px solid rgba(17, 145, 244, 0.9);
+        border: 2px solid #ade8f4;
         padding: 5px;
         border-radius: 10px;
         transition: 1s; }
