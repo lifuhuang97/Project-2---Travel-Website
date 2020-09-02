@@ -67,11 +67,18 @@ img {
 			}
 
 			h4 {
-				padding-top: 3rem;
+				padding-top: 4rem;
 				font-weight: 400;
 				margin: 1rem 18rem;
-				font-size: 28px;
+				font-size: 32px;
 				line-height: 1.9;
+			}
+
+			p {
+				font-size: 22px;
+				width: 40%;
+				margin: 10px auto;
+				text-align: right;
 			}
 		}
 	}
@@ -187,7 +194,7 @@ img {
 
 		h2 {
 			text-transform: initial;
-			color: #caf0f8;
+			color: $secondary-light-color;
 		}
 	}
 
@@ -257,3 +264,5 @@ footer {
 	text-align: center;
 	color: $light-color;
 }
+
+@import 'media';
