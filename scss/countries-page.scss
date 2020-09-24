@@ -1,0 +1,43 @@
+@import 'config';
+@import 'utilities';
+@import 'anchor-jumper-helper';
+
+//!Header
+
+#country-header {
+	//!Header Home
+
+	&-home {
+		background: linear-gradient(135deg, rgba(34, 78, 210, 0.55) 0%, rgba(72, 56, 149, 0.6) 90%),
+			url('../img/denmark/cityscape.jpg') no-repeat center right / cover;
+		height: 100vh;
+		color: $light-color;
+		position: relative;
+
+		//!Header Content
+		.country-header-content {
+			position: relative;
+			text-align: center;
+			padding-top: 20%;
+
+			h1 {
+				color: $light-color;
+				font-size: 80px;
+				line-height: 1.2;
+				letter-spacing: 9px;
+			}
+
+			h4 {
+				padding-top: 4rem;
+				font-weight: 400;
+				margin: 1rem 18rem;
+				font-size: 45px;
+				line-height: 1.9;
+			}
+		}
+	}
+}
+
+
+
+@import 'media';

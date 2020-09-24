@@ -1,0 +1,61 @@
+.container {
+  max-width: 1700px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden; }
+
+.btn-main {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer; }
+
+.btn-main {
+  color: #333;
+  background-color: #48cae4; }
+
+button[class^='btn-']:hover,
+a[class^='btn-']:hover,
+input[class^='btn-']:hover {
+  background-color: #48cae4; }
+
+.text-center {
+  text-align: center; }
+
+#countries-jumper {
+  display: block;
+  content: '';
+  margin-top: -85px;
+  height: 85px;
+  visibility: hidden;
+  pointer-events: none; }
+
+#gallery-jumper {
+  display: block;
+  content: '';
+  margin-top: -83px;
+  height: 83px;
+  visibility: hidden;
+  pointer-events: none; }
+
+#country-header-home {
+  background: linear-gradient(135deg, rgba(34, 78, 210, 0.55) 0%, rgba(72, 56, 149, 0.6) 90%), url("../img/denmark/cityscape.jpg") no-repeat center right/cover;
+  height: 100vh;
+  color: #f4f4f4;
+  position: relative; }
+  #country-header-home .country-header-content {
+    position: relative;
+    text-align: center;
+    padding-top: 20%; }
+    #country-header-home .country-header-content h1 {
+      color: #f4f4f4;
+      font-size: 80px;
+      line-height: 1.2;
+      letter-spacing: 9px; }
+    #country-header-home .country-header-content h4 {
+      padding-top: 4rem;
+      font-weight: 400;
+      margin: 1rem 18rem;
+      font-size: 45px;
+      line-height: 1.9; }
