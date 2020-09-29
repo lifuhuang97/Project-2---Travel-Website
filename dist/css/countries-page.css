@@ -120,7 +120,7 @@ input[class^='btn-']:hover {
             color: rgba(2, 62, 138, 0.9); }
 
 #country-gallery {
-  height: 84vh;
+  height: 81.6vh;
   background: linear-gradient(135deg, rgba(173, 232, 244, 0.45) 0%, rgba(72, 202, 228, 0.65) 90%), url("../img/denmark/denmark-architecture.jpg") no-repeat center center/cover; }
   #country-gallery .container {
     display: flex;
