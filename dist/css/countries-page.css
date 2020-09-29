@@ -125,7 +125,8 @@ input[class^='btn-']:hover {
   #country-gallery .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; }
+    justify-content: space-between;
+    width: 80%; }
     #country-gallery .container > h2 {
       flex-basis: 10%;
       text-align: center;
