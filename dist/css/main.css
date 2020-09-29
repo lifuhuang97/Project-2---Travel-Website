@@ -184,7 +184,7 @@ svg {
 
 #countries-home {
   position: relative;
-  height: 91vh;
+  height: 92vh;
   z-index: 1;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 100%, rgba(255, 255, 255, 0.6) 100%), url("../img/fuji.jpg") no-repeat center right/cover; }
   #countries-home .countries-heading {
@@ -337,7 +337,7 @@ svg {
 
 #gallery-home {
   position: relative;
-  height: 85vh;
+  height: 82.8vh;
   background: url("../img/gallery/test-bg.jpg") no-repeat center right/cover;
   z-index: 5;
   padding-bottom: 6px;
@@ -444,7 +444,8 @@ svg {
   visibility: hidden;
   pointer-events: none; }
 
-#gallery-jumper {
+#gallery-jumper,
+#about-jumper {
   display: block;
   content: '';
   margin-top: -83px;
