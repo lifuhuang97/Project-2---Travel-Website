@@ -18,6 +18,32 @@ body {
 	background: $light-color;
 }
 
+html.scroll-snap {
+	scroll-snap-type: y mandatory;
+	scroll-padding-top: 75px;
+	scroll-snap-points-y: repeat(10vh);
+
+	html.scroll-snap body {
+		scroll-snap-type: y mandatory;
+
+		#header-home,
+		#countries-home,
+		#gallery-home {
+			scroll-snap-align: end;
+			scroll-margin: 90px;
+		}
+	}
+}
+
+#countries-home,
+#gallery-home,
+#header-home,
+#country-header-home,
+#country-info,
+#country-gallery {
+	scroll-snap-align: start;
+}
+
 a {
 	text-decoration: none;
 	color: $dark-color;

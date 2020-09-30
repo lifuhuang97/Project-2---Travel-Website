@@ -35,6 +35,26 @@ body {
   line-height: 1.6;
   background: #f4f4f4; }
 
+html.scroll-snap {
+  scroll-snap-type: y mandatory;
+  scroll-padding-top: 75px;
+  scroll-snap-points-y: repeat(10vh); }
+  html.scroll-snap html.scroll-snap body {
+    scroll-snap-type: y mandatory; }
+    html.scroll-snap html.scroll-snap body #header-home,
+    html.scroll-snap html.scroll-snap body #countries-home,
+    html.scroll-snap html.scroll-snap body #gallery-home {
+      scroll-snap-align: end;
+      scroll-margin: 90px; }
+
+#countries-home,
+#gallery-home,
+#header-home,
+#country-header-home,
+#country-info,
+#country-gallery {
+  scroll-snap-align: start; }
+
 a {
   text-decoration: none;
   color: #333;
