@@ -31,7 +31,7 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   background: #f4f4f4; }
 
@@ -39,11 +39,24 @@ html.scroll-snap {
   scroll-snap-type: y proximity;
   scroll-padding-top: 75px;
   scroll-snap-points-y: repeat(10vh); }
-  html.scroll-snap html.scroll-snap body #header-home,
-  html.scroll-snap html.scroll-snap body #countries-home,
-  html.scroll-snap html.scroll-snap body #gallery-home {
-    scroll-snap-align: start;
-    scroll-margin: 90px; }
+  html.scroll-snap html.scroll-snap body {
+    scroll-snap-type: y proximity; }
+    html.scroll-snap html.scroll-snap body #header-home,
+    html.scroll-snap html.scroll-snap body #countries-home,
+    html.scroll-snap html.scroll-snap body #gallery-home,
+    html.scroll-snap html.scroll-snap body #country-header-home,
+    html.scroll-snap html.scroll-snap body #country-info,
+    html.scroll-snap html.scroll-snap body #country-gallery {
+      scroll-snap-align: end;
+      scroll-margin: 90px; }
+
+#header-home,
+#countries-home,
+#gallery-home,
+#country-header-home,
+#country-info,
+#country-gallery {
+  scroll-snap-align: start; }
 
 a {
   text-decoration: none;
@@ -356,7 +369,7 @@ svg {
   align-items: center;
   text-align: center; }
   #gallery-home::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -369,7 +382,7 @@ svg {
       text-align: center;
       margin: 2rem 0;
       color: #ade8f4;
-      text-shadow: -0.5px -0.5px 0 #90e0ef, 0.5px -0.5px 0 #90e0ef, -0.5px 0.5px 0 #90e0ef, 0.5px 0.5px 0 #90e0ef;
+      text-shadow: -0.5px -0.5px 0 #90e0ef, 0.5px -0.5px 0 #90e0ef, -0.5px 0.5px 0 #90e0ef, 0.5px 0.5px 0 #90e0ef;
       font-size: 4rem;
       bottom: 20px; }
   #gallery-home .carousel {
