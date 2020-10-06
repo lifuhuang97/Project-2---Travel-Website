@@ -1,0 +1,261 @@
+@media (max-width: 1500px) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    html.scroll-snap {
+        scroll-snap-type: none;
+        scroll-padding-top: none;
+        scroll-snap-points-y: none;
+
+        html.scroll-snap body {
+            scroll-snap-type: none;
+
+            #header-home,
+            #countries-home,
+            #gallery-home,
+            #country-header-home,
+            #country-info,
+            #country-gallery {
+                scroll-snap-align: none;
+                scroll-margin: none;
+            }
+        }
+    }
+
+    #header-home,
+    #countries-home,
+    #gallery-home,
+    #country-header-home,
+    #country-info,
+    #country-gallery {
+        scroll-snap-align: none;
+    }
+
+    * {
+        scroll-snap-align: none;
+    }
+    svg {
+        display: none;
+    }
+
+    #gallery-jumper,
+    #about-jumper,
+    #countries-jumper {
+        margin-top: 0;
+        height: 0;
+    }
+
+    #country-info {
+        .container {
+            .country-info-header h1 {
+                text-align: center;
+            }
+        }
+    }
+}
+
+// Tablets & Smaller
+@media (max-width: 1450px) {
+    //
+    svg {
+        display: none;
+    }
+
+    #header-home,
+    #country-header-home {
+        height: 100%;
+
+        .header-content,
+        .country-header-content {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            h1 {
+                padding-top: 4rem;
+                font-size: 60px;
+                padding-bottom: 4rem;
+            }
+
+            h4,
+            p {
+                padding: 3rem 0;
+                font-size: 30px;
+                margin: 3rem 0;
+                text-align: center;
+            }
+        }
+    }
+
+    #countries-home {
+        position: relative;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .countries-section-end {
+            position: relative;
+            padding: 0;
+            margin: 0;
+            padding-bottom: 20rem;
+        }
+    }
+
+    #country-info,
+    #country-gallery,
+    #gallery-home {
+        min-height: 70vh;
+        height: 100%;
+    }
+
+    #gallery-home {
+        .container {
+            h1 {
+                margin-bottom: 0;
+                bottom: 0;
+            }
+        }
+
+        .carousel {
+            flex: 100%;
+            padding: 5rem 2rem;
+            max-width: 90%;
+
+            .slider {
+                .navigation-manual {
+                    display: none;
+                }
+            }
+
+            .auto-btn1,
+            .auto-btn2,
+            .auto-btn3,
+            .auto-btn4,
+            .auto-btn5 {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 1170px) {
+    #header-home,
+    #country-header-home {
+        .header-content,
+        .country-header-content {
+            h4,
+            p {
+                width: 80%;
+                text-align: center;
+            }
+        }
+    }
+
+    .gallery-item {
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 850px) {
+    #country-gallery {
+        .container {
+            .gallery-images-flexbox {
+                background-color: transparent;
+                box-shadow: none;
+            }
+        }
+    }
+    .gallery-item {
+        flex-basis: 90%;
+    }
+
+    #country-info .container .country-info-flexbox .country-info-flex-item {
+        .img-container {
+            display: none;
+            position: absolute;
+        }
+
+        .words-container {
+            flex-basis: 100%;
+            text-align: center;
+
+            p {
+                max-width: 90%;
+            }
+        }
+    }
+
+    #country-info .container .country-info-header h3 {
+        max-width: 90%;
+    }
+}
+
+// Smartphones
+
+@media (max-width: 715px) {
+    #main-nav {
+        ul {
+            & li:not(:last-child) {
+                display: none;
+            }
+        }
+
+        a {
+            transition: none;
+            padding-bottom: 1rem;
+            &:hover {
+                border-color: none;
+            }
+        }
+    }
+    #header-home,
+    #country-header-home {
+        h1 {
+            font-size: 40px;
+        }
+
+        height: 100%;
+
+        .header-content,
+        .country-header-content {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            h1 {
+                padding-top: 4rem;
+                font-size: 40px;
+                padding-bottom: 4rem;
+            }
+
+            h4,
+            p {
+                padding-top: 3rem;
+                font-size: 20px;
+                margin: 0;
+                text-align: center;
+            }
+        }
+    }
+
+    #countries-home .countries-heading h1,
+    #country-info .container .country-info-header h1,
+    #country-gallery .container > h2 {
+        font-size: 40px;
+    }
+
+    #gallery-home {
+        .container h1 {
+            font-size: 40px;
+            padding-bottom: 0;
+        }
+
+        .carousel {
+            padding: 0;
+            padding-bottom: 20px;
+        }
+    }
+}

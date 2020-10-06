@@ -1,275 +1,317 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-snap">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Globewalker | Home</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/ico" href="./favicon.ico" />
-    <!-- Ion Icons -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
-    />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <!-- JQuery for carousel -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <header id="header-home" class="header-home">
-      <nav id="main-nav" class="pagetop">
-        <a href="#top" class="logo-link">
-          <img src="img/logo.png" alt="globewalker" id="logo" />
-        </a>
-        <ul>
-          <li><a id="home-nav" href="#header-home" class="current">Home</a></li>
-          <li><a id="countries-nav" href="#countries-jumper">Countries</a></li>
-          <li><a id="gallery-nav" href="#gallery-jumper">Gallery</a></li>
-          <li>
-            <a href="https://www.github.com/lifuhuang97" target="_blank"
-              >About Me</a
-            >
-          </li>
-        </ul>
-      </nav>
-
-      <div class="container">
-        <div class="header-content">
-          <h1>Globewalker</h1>
-          <h4>
-            " The real voyage of discovery consists not inseeking new lands
-            <br />but seeing with new eyes "
-          </h4>
-          <p>- Marcel Proust</p>
-        </div>
-      </div>
-
-      <svg x="0px" y="0px" viewBox="0 0 1665 800">
-        <defs>
-          <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop
-              offset="0%"
-              style="stop-color: rgba(27, 69, 239, 0.8); stop-opacity: 1"
-            ></stop>
-            <stop
-              offset="100%"
-              style="stop-color: rgba(17, 145, 244, 0.9); stop-opacity: 1"
-            ></stop>
-          </linearGradient>
-        </defs>
-
-        <path
-          class="st0 w0"
-          d="M0.5,3.5h1800v400c0,0-531-130-900,0s-900,0-900,0V3.5z"
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Globewalker | Home</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/ico" href="./favicon.ico" />
+        <!-- Ion Icons -->
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
         />
-        <path
-          class="st0 w1"
-          d="M0.5,3.5h1800v400c0,0-432.9-139-789,23c-378,172-1011-23-1011-23V-0.5z"
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto&display=swap"
+            rel="stylesheet"
         />
-        <path
-          class="st0 w2"
-          d="M0.5,3.5h1800v400c0,0-724.7-154.9-1084,0c-399,172-716,33-716,33V-0.5z"
-        />
-        <path
-          class="st0 w3"
-          d="M0.5,3.5h1800v400c0,0-351-190-900-40c-408.8,111.7-900,0-900,0V-0.5z"
-        />
-        <path
-          class="st0 w4"
-          d="M0.5,3.5h1800v400c0,0-495,147-900,0c-367.8-133.5-900,0-900,0V-0.5z"
-        />
-      </svg>
-    </header>
+        <!-- JQuery for carousel -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+            integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+            crossorigin="anonymous"
+        ></script>
 
-    <div id="countries-jumper"></div>
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <header id="header-home" class="header-home">
+            <nav id="main-nav" class="pagetop">
+                <a href="#top" class="logo-link">
+                    <img src="img/logo.png" alt="globewalker" id="logo" />
+                </a>
+                <ul>
+                    <li>
+                        <a id="home-nav" href="#header-home" class="current"
+                            >Home</a
+                        >
+                    </li>
+                    <li>
+                        <a id="countries-nav" href="#countries-jumper"
+                            >Countries</a
+                        >
+                    </li>
+                    <li>
+                        <a id="gallery-nav" href="#gallery-jumper">Gallery</a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.github.com/lifuhuang97"
+                            target="_blank"
+                            >About Me</a
+                        >
+                    </li>
+                </ul>
+            </nav>
 
-    <section id="countries-home">
-      <div class="container">
-        <div class="countries-heading">
-          <h1>Countries</h1>
-          <p>Click for more details</p>
-        </div>
+            <div class="container">
+                <div class="header-content">
+                    <h1>Globewalker</h1>
+                    <h4>
+                        " The real voyage of discovery consists not inseeking
+                        new lands but seeing with new eyes "
+                    </h4>
+                    <p>- Marcel Proust</p>
+                </div>
+            </div>
 
-        <div class="glowbox-container">
-          <div class="box">
-            <div class="imgBx">
-              <a href="./countries/denmark.html">
-                <img
-                  class="glowbox-image"
-                  src="img/denmark/flag.jpg"
-                  alt="denmark"
+            <svg x="0px" y="0px" viewBox="0 0 1665 800">
+                <defs>
+                    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop
+                            offset="0%"
+                            style="
+                                stop-color: rgba(27, 69, 239, 0.8);
+                                stop-opacity: 1;
+                            "
+                        ></stop>
+                        <stop
+                            offset="100%"
+                            style="
+                                stop-color: rgba(17, 145, 244, 0.9);
+                                stop-opacity: 1;
+                            "
+                        ></stop>
+                    </linearGradient>
+                </defs>
+
+                <path
+                    class="st0 w0"
+                    d="M0.5,3.5h1800v400c0,0-531-130-900,0s-900,0-900,0V3.5z"
                 />
-              </a>
-            </div>
-            <div class="content">
-              <h2>Denmark<br /><span>The Happiest Place on Earth</span></h2>
-            </div>
-          </div>
-
-          <div class="box">
-            <div class="imgBx">
-              <a href="./countries/australia.html">
-                <img
-                  class="glowbox-image"
-                  src="img/australia/flag.jpg"
-                  alt="australia"
+                <path
+                    class="st0 w1"
+                    d="M0.5,3.5h1800v400c0,0-432.9-139-789,23c-378,172-1011-23-1011-23V-0.5z"
                 />
-              </a>
-            </div>
-            <div class="content">
-              <h2>
-                Australia<br /><span>There's nothing like Australia</span>
-              </h2>
-            </div>
-          </div>
-
-          <div class="box">
-            <div class="imgBx">
-              <a href="./countries/korea.html">
-                <img
-                  class="glowbox-image"
-                  src="img/korea/flag.jpg"
-                  alt="korea"
+                <path
+                    class="st0 w2"
+                    d="M0.5,3.5h1800v400c0,0-724.7-154.9-1084,0c-399,172-716,33-716,33V-0.5z"
                 />
-              </a>
+                <path
+                    class="st0 w3"
+                    d="M0.5,3.5h1800v400c0,0-351-190-900-40c-408.8,111.7-900,0-900,0V-0.5z"
+                />
+                <path
+                    class="st0 w4"
+                    d="M0.5,3.5h1800v400c0,0-495,147-900,0c-367.8-133.5-900,0-900,0V-0.5z"
+                />
+            </svg>
+        </header>
+
+        <div id="countries-jumper"></div>
+
+        <section id="countries-home">
+            <div class="container">
+                <div class="countries-heading">
+                    <h1>Countries</h1>
+                    <p>Click for more details</p>
+                </div>
+
+                <div class="glowbox-container">
+                    <div class="box">
+                        <div class="imgBx">
+                            <a href="./countries/denmark.html">
+                                <img
+                                    class="glowbox-image"
+                                    src="img/denmark/flag.jpg"
+                                    alt="denmark"
+                                />
+                            </a>
+                        </div>
+                        <div class="content">
+                            <h2>
+                                Denmark<br /><span
+                                    >The Happiest Place on Earth</span
+                                >
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="imgBx">
+                            <a href="./countries/australia.html">
+                                <img
+                                    class="glowbox-image"
+                                    src="img/australia/flag.jpg"
+                                    alt="australia"
+                                />
+                            </a>
+                        </div>
+                        <div class="content">
+                            <h2>
+                                Australia<br /><span
+                                    >The Land of Kangaroos</span
+                                >
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="imgBx">
+                            <a href="./countries/taiwan.html">
+                                <img
+                                    class="glowbox-image"
+                                    src="img/taiwan/flag.jpg"
+                                    alt="taiwan"
+                                />
+                            </a>
+                        </div>
+                        <div class="content">
+                            <h2>Taiwan<br /><span>Street Food Heaven</span></h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="countries-section-end">
+                    <h2>. . . And Many More Adventures To Come!</h2>
+                </div>
             </div>
-            <div class="content">
-              <h2>Korea<br /><span>Imagine Your Korea</span></h2>
+
+            <svg x="0px" y="0px" viewBox="0 0 1665 800">
+                <defs>
+                    <linearGradient
+                        id="grad2"
+                        x1="0%"
+                        y1="0%"
+                        x2="100%"
+                        y2="0%"
+                    >
+                        <stop
+                            offset="0%"
+                            style="
+                                stop-color: rgba(255, 255, 242, 0.8);
+                                stop-opacity: 1;
+                            "
+                        ></stop>
+                        <stop
+                            offset="100%"
+                            style="
+                                stop-color: rgba(255, 255, 244, 0.9);
+                                stop-opacity: 1;
+                            "
+                        ></stop>
+                    </linearGradient>
+                </defs>
+
+                <path
+                    class="st1 w0"
+                    d="M0.5,3.5h1800v400c0,0-531-130-900,0s-900,0-900,0V3.5z"
+                />
+                <path
+                    class="st1 w1"
+                    d="M0.5,3.5h1800v400c0,0-432.9-139-789,23c-378,172-1011-23-1011-23V-0.5z"
+                />
+                <path
+                    class="st1 w2"
+                    d="M0.5,3.5h1800v400c0,0-724.7-154.9-1084,0c-399,172-716,33-716,33V-0.5z"
+                />
+                <path
+                    class="st1 w3"
+                    d="M0.5,3.5h1800v400c0,0-351-190-900-40c-408.8,111.7-900,0-900,0V-0.5z"
+                />
+                <path
+                    class="st1 w4"
+                    d="M0.5,3.5h1800v400c0,0-495,147-900,0c-367.8-133.5-900,0-900,0V-0.5z"
+                />
+            </svg>
+        </section>
+
+        <!-- Gallery -->
+
+        <div id="gallery-jumper"></div>
+
+        <section id="gallery-home">
+            <div class="container">
+                <div class="gallery-heading">
+                    <h1>Gallery</h1>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="countries-section-end">
-          <h2>. . . And Many More Adventures To Come!</h2>
-        </div>
-      </div>
-
-      <svg x="0px" y="0px" viewBox="0 0 1665 800">
-        <defs>
-          <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop
-              offset="0%"
-              style="stop-color: rgba(255, 255, 242, 0.8); stop-opacity: 1"
-            ></stop>
-            <stop
-              offset="100%"
-              style="stop-color: rgba(255, 255, 244, 0.9); stop-opacity: 1"
-            ></stop>
-          </linearGradient>
-        </defs>
-
-        <path
-          class="st1 w0"
-          d="M0.5,3.5h1800v400c0,0-531-130-900,0s-900,0-900,0V3.5z"
-        />
-        <path
-          class="st1 w1"
-          d="M0.5,3.5h1800v400c0,0-432.9-139-789,23c-378,172-1011-23-1011-23V-0.5z"
-        />
-        <path
-          class="st1 w2"
-          d="M0.5,3.5h1800v400c0,0-724.7-154.9-1084,0c-399,172-716,33-716,33V-0.5z"
-        />
-        <path
-          class="st1 w3"
-          d="M0.5,3.5h1800v400c0,0-351-190-900-40c-408.8,111.7-900,0-900,0V-0.5z"
-        />
-        <path
-          class="st1 w4"
-          d="M0.5,3.5h1800v400c0,0-495,147-900,0c-367.8-133.5-900,0-900,0V-0.5z"
-        />
-      </svg>
-    </section>
-
-    <!-- Gallery -->
-
-    <div id="gallery-jumper"></div>
-
-    <section id="gallery-home">
-      <div class="container">
-        <div class="gallery-heading">
-          <h1>Gallery</h1>
-        </div>
-      </div>
-
-      <div class="carousel">
-        <!-- image slider start -->
-        <div class="slider">
-          <div class="slides">
-            <!-- radio buttons start -->
-            <input type="radio" name="radio-btn" id="radio1" />
-            <input type="radio" name="radio-btn" id="radio2" />
-            <input type="radio" name="radio-btn" id="radio3" />
-            <input type="radio" name="radio-btn" id="radio4" />
-            <input type="radio" name="radio-btn" id="radio5" />
-            <!-- radio buttons end -->
-            <!-- slide images start -->
-            <div class="slide first">
-              <img
-                src="./img/gallery/australia-operahouse-1.jpg"
-                alt="australia"
-              />
+            <div class="carousel">
+                <!-- image slider start -->
+                <div class="slider">
+                    <div class="slides">
+                        <!-- radio buttons start -->
+                        <input type="radio" name="radio-btn" id="radio1" />
+                        <input type="radio" name="radio-btn" id="radio2" />
+                        <input type="radio" name="radio-btn" id="radio3" />
+                        <input type="radio" name="radio-btn" id="radio4" />
+                        <input type="radio" name="radio-btn" id="radio5" />
+                        <!-- radio buttons end -->
+                        <!-- slide images start -->
+                        <div class="slide first">
+                            <img
+                                src="./img/gallery/australia-operahouse-1.jpg"
+                                alt="australia"
+                            />
+                        </div>
+                        <div class="slide">
+                            <img
+                                src="./img/gallery/china-great-wall-1.jpg"
+                                alt="china"
+                            />
+                        </div>
+                        <div class="slide">
+                            <img
+                                src="./img/gallery/finland1.jpg"
+                                alt="finland"
+                            />
+                        </div>
+                        <div class="slide">
+                            <img
+                                src="./img/gallery/sweden-northern-lights-1.jpg"
+                                alt="sweden"
+                            />
+                        </div>
+                        <div class="slide">
+                            <img
+                                src="./img/gallery/switzerland-landscape-1.jpg"
+                                alt="switzerland"
+                            />
+                        </div>
+                        <!-- slide images end -->
+                        <!-- automatic navigation start -->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                            <div class="auto-btn5"></div>
+                        </div>
+                        <!-- automatic navigation end -->
+                    </div>
+                    <!-- manual navigation start -->
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                        <label for="radio5" class="manual-btn"></label>
+                    </div>
+                    <!-- manual navigation end -->
+                </div>
+                <!-- image slider end -->
+                <!-- Carousel JS -->
+                <script src="./js/carousel.js"></script>
             </div>
-            <div class="slide">
-              <img src="./img/gallery/china-great-wall-1.jpg" alt="china" />
-            </div>
-            <div class="slide">
-              <img src="./img/gallery/finland1.jpg" alt="finland" />
-            </div>
-            <div class="slide">
-              <img
-                src="./img/gallery/sweden-northern-lights-1.jpg"
-                alt="sweden"
-              />
-            </div>
-            <div class="slide">
-              <img
-                src="./img/gallery/switzerland-landscape-1.jpg"
-                alt="switzerland"
-              />
-            </div>
-            <!-- slide images end -->
-            <!-- automatic navigation start -->
-            <div class="navigation-auto">
-              <div class="auto-btn1"></div>
-              <div class="auto-btn2"></div>
-              <div class="auto-btn3"></div>
-              <div class="auto-btn4"></div>
-              <div class="auto-btn5"></div>
-            </div>
-            <!-- automatic navigation end -->
-          </div>
-          <!-- manual navigation start -->
-          <div class="navigation-manual">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-            <label for="radio5" class="manual-btn"></label>
-          </div>
-          <!-- manual navigation end -->
-        </div>
-        <!-- image slider end -->
-        <!-- Carousel JS -->
-        <script src="./js/carousel.js"></script>
-      </div>
-    </section>
+        </section>
 
-    <footer>
-      <p>&copy; 2020 Globewalker. All Rights Reserved.</p>
-    </footer>
+        <footer>
+            <p>&copy; 2020 Globewalker. All Rights Reserved.</p>
+        </footer>
 
-    <script src="./js/index.js"></script>
-  </body>
+        <script src="./js/index.js"></script>
+    </body>
 </html>
