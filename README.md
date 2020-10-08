@@ -14,9 +14,9 @@
     <a href="https://dreamy-noyce-fdc2f1.netlify.app/"><strong>View Demo</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/lifuhuang97/Project-2---Travel-Website/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/lifuhuang97/Project-2---Travel-Website/issues">Request Feature</a>
   </p>
 </p>
 
@@ -26,6 +26,9 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Features](#features)
+  * [Glowboxes](#glowboxes)
+  * [Carousel Gallery](#carousel-gallery)
+  * [Interactive Gallery](#interactive-gallery) 
 * [Cloning](#cloning)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -52,9 +55,11 @@ This section should list any major frameworks that you built your project using.
 ### Glowboxes
 <img src="http://g.recordit.co/vxO4w34X08.gif" width="1200px" />
 
+<!-- CAROUSEL GALLERY -->
 ### Carousel Gallery
 <img src="http://g.recordit.co/7YN2w4nju6.gif" width="1200px" />
 
+<!-- INTERACTIVE GALLERY -->
 ### Interactive Gallery
 <img src="http://g.recordit.co/EGqsBB9XKE.gif" width="1200px" />
 
