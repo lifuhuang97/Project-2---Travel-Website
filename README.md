@@ -106,7 +106,7 @@ npm run build
 
 ### Future Features
 1. More countries
-2. Adding personal pohotos - currently some photos are placeholders
+2. Adding personal photos - currently some photos are placeholders
 
 ### Open Issues
 See the [open issues](https://github.com/lifuhuang97/Project-2---Travel-Website/issues) for a list of proposed features (and known issues).
